@@ -3,7 +3,7 @@
   "thid": "f8aee09d-f592-4fcc-8d2a-8938aa26676c",
   "from": "did:polygonid:polygon:amoy:2qabEh1P9MNWeUmsgZtwWFogU4KgvoCqzD4jakRKZu",
   "typ": "application/iden3comm-plain-json",
-  "type": "https://iden3-communication.io/authorization/1.0/request",
+  "type": "https://iden3-communication.io/proofs/1.0/contract-invoke-request",
   "body": {
     "reason": "Test flow",
     "chainID": "80002",
