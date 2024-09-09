@@ -1,0 +1,34 @@
+{
+    "id": "f8aee09d-f592-4fcc-8d2a-8938aa26676c",
+    "thid": "f8aee09d-f592-4fcc-8d2a-8938aa26676c",
+    "from": "did:iden3:linea:sepolia:28itzVLBHnMJaBknFK8PybxHJTvoCBB4rRvngp5APS",
+    "typ": "application/iden3comm-plain-json",
+    "type": "https://iden3-communication.io/proofs/1.0/contract-invoke-request",
+    "body": {
+      "reason": "Test flow",
+      "transaction_data": {
+        "contract_address": "0x830377FF46bEfB4404767Dceba0914c071930Ef3",
+        "method_id": "0xade09fcd",
+        "chain_id": 59141,
+        "network": "linea-sepolia"
+      },
+      "scope": [
+        {
+          "id": 1000001,
+          "circuitId": "credentialAtomicQuerySigV2OnChain",
+          "query": {
+            "allowedIssuers": [
+              "*"
+            ],
+            "context": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/kyc-v3.json-ld",
+            "type": "KYCAgeCredential",
+            "credentialSubject": {
+              "birthday": {
+                "$lt": 20020101
+              }
+            } 
+          }
+        }
+      ]
+    }
+  }
