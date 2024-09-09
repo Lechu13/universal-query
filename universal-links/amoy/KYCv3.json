@@ -1,0 +1,35 @@
+{
+    "id": "f8aee09d-f592-4fcc-8d2a-8938aa26676c",
+    "thid": "f8aee09d-f592-4fcc-8d2a-8938aa26676c",
+    "from": "did:iden3:linea:sepolia:28itzVLBHnMJaBknFK8PybxHJTvoCBB4rRvngp5APS",
+    "typ": "application/iden3comm-plain-json",
+    "type": "https://iden3-communication.io/proofs/1.0/contract-invoke-request",
+    "body": {
+  "chainID": "80002",
+  "skipClaimRevocationCheck": false,
+  "scope": [
+    {
+      "circuitId": "credentialAtomicQuerySigV2OnChain",
+      "id": 4,
+      "query": {
+        "context": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/kyc-v3.json-ld",
+        "allowedIssuers": [
+          "*"
+        ],
+        "type": "KYCAgeCredential",
+        "credentialSubject": {
+          "birthday": {
+            "$lt": 20020101
+          }
+        }
+      }
+    }
+  ],
+  "transactionData": {
+    "contractAddress": "0x5e62bB5dEAa3507A31CbbacEBCC9731e1E361BAB",
+    "methodID": "0xade09fcd",
+    "chainID": 80002,
+    "network": "polygon-amoy"
+  }
+}
+  }
