@@ -5,7 +5,7 @@
     "thid": "7f38a193-0918-4a48-9fac-36adfdb8b543",
     "from": "did:iden3:polygon:amoy:x6x5sor7zpy7c5EhTTzRMqafyumoWMjA4LncgARhZ",
     "body": {
-        "callbackUrl": "https://www.google.com/",
+        "callbackUrl": "https://web-wallet-demo-dev.privado.id/",
         "reason": "for testing submitZKPResponseV2",
         "scope": [
             {
