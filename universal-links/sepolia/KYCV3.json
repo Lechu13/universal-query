@@ -5,6 +5,7 @@
   "thid": "7f38a193-0918-4a48-9fac-36adfdb8b543",
   "from": "did:iden3:polygon:amoy:x6x5sor7zpySUbxeFoAZUYbUh68LQ4ipcvJLRYM6c",
   "body": {
+    "callbackUrl": "https://verifier.polygonid.me/api/callback?sessionId=897494",
     "reason": "for testing submitZKPResponseV2",
     "transaction_data": {
       "contract_address": "0xcfe3f46048cb9dAa40c90fd574F6E1deB534b9e7",
