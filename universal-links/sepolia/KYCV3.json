@@ -15,7 +15,7 @@
     },
     "scope": [
       {
-        "id": 120,
+        "id": 4,
         "circuitId": "credentialAtomicQueryMTPV2OnChain",
         "query": {
           "allowedIssuers": [
@@ -24,7 +24,7 @@
           "context": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/kyc-v3.json-ld",
           "credentialSubject": {
             "birthday": {
-              "$gt": 18000101
+              "$lt": 20020101
             }
           },
           "type": "KYCAgeCredential"
