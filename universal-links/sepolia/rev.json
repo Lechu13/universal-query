@@ -15,7 +15,7 @@
         },
         "scope": [
             {
-                "id": 136,
+                "id": 138,
                 "circuitId": "credentialAtomicQuerySigV2OnChain",
                 "query": {
                     "allowedIssuers": [
