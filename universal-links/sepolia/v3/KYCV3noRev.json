@@ -29,7 +29,8 @@
                             ]
                         }
                     },
-                    "type": "KYCAgeCredential"
+                    "type": "KYCAgeCredential",
+                    "skipClaimRevocationCheck": true
                 }
             }
         ]

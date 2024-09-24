@@ -27,7 +27,8 @@
                             "$lt": 20500101
                         }
                     },
-                    "type": "KYCAgeCredential"
+                    "type": "KYCAgeCredential",
+                    "skipClaimRevocationCheck": true
                 }
             }
         ]
