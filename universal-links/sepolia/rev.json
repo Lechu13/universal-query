@@ -1,0 +1,36 @@
+{
+    "id": "7f38a193-0918-4a48-9fac-36adfdb8b543",
+    "typ": "application/iden3comm-plain-json",
+    "type": "https://iden3-communication.io/proofs/1.0/contract-invoke-request",
+    "thid": "7f38a193-0918-4a48-9fac-36adfdb8b543",
+    "from": "did:iden3:polygon:amoy:x6x5sor7zpySUbxeFoAZUYbUh68LQ4ipcvJLRYM6c",
+    "body": {
+        "callbackUrl": "https://verifier.polygonid.me/api/callback?sessionId=897494",
+        "reason": "for testing submitZKPResponseV2",
+        "transaction_data": {
+            "contract_address": "0xcfe3f46048cb9dAa40c90fd574F6E1deB534b9e7",
+            "method_id": "ade09fcd",
+            "chain_id": 59141,
+            "network": "linea-sepolia"
+        },
+        "scope": [
+            {
+                "id": 136,
+                "circuitId": "credentialAtomicQuerySigV2OnChain",
+                "query": {
+                    "allowedIssuers": [
+                        "*"
+                    ],
+                    "context": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/kyc-v3.json-ld",
+                    "credentialSubject": {
+                        "birthday": {
+                            "$ne": 20500101
+                        }
+                    },
+                    "type": "KYCAgeCredential",
+                    "skipClaimRevocationCheck": true
+                }
+            }
+        ]
+    }
+}
