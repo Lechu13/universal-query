@@ -16,7 +16,7 @@
                     "allowedIssuers": [
                         "*"
                     ],
-                    "context": "<html><body><script>alert( 'Hello, world!' );</script></body></html>",
+                    "context": "<html><body><h1>test</h1></body></html>",
                     "credentialSubject": {
                         "birthday": {
                             "$lt": 20020101
