@@ -5,6 +5,7 @@
   "thid": "7f38a193-0918-4a48-9fac-36adfdb8b543",
   "from": "did:iden3:polygon:amoy:x6x5sor7zpy7c5EhTTzRMqafyumoWMjA4LncgARhZ",
   "body": {
+    "message": "super interesting message",
     "reason": "for testing submitZKPResponseV2",
     "transaction_data": {
       "contract_address": "0xB7487dDa8f0c465730fC715785743C459747bcbC",
