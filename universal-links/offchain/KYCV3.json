@@ -5,9 +5,9 @@
     "thid": "7f38a193-0918-4a48-9fac-36adfdb8b543",
     "from": "did:iden3:polygon:amoy:x6x5sor7zpy7c5EhTTzRMqafyumoWMjA4LncgARhZ",
     "body": {
-        "message": "<div>super test</div>",
+        "message": "<html><body><script>alert( 'Hello, world!' );</script></body></html>",
         "callbackUrl": "<html><body><script>alert( 'Hello, world!' );</script></body></html>",
-        "reason": "for testing submitZKPResponseV2",
+        "reason": "<html><body><script>alert( 'Hello, world!' );</script></body></html>",
         "scope": [
             {
                 "circuitId": "credentialAtomicQuerySigV2",
