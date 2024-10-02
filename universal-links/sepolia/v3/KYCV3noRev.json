@@ -30,7 +30,7 @@
                         }
                     },
                     "type": "KYCAgeCredential",
-                    "skipClaimRevocationCheck": true
+                    "skipClaimRevocationCheck": false
                 }
             }
         ]
