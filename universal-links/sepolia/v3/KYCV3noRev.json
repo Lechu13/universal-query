@@ -29,7 +29,8 @@
                             "$ne": 20020101
                         }
                     },
-                    "type": "KYCAgeCredential"
+                    "type": "KYCAgeCredential",
+                    "proofType": "BJJSignature2021"
                 }
             }
         ]
