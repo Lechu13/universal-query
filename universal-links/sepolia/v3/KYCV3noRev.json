@@ -16,6 +16,9 @@
             {
                 "id": 170,
                 "circuitId": "credentialAtomicQueryV3OnChain-beta.1",
+                "params": {
+                    "nullifierSessionID": 11837215
+                },
                 "query": {
                     "allowedIssuers": [
                         "*"
