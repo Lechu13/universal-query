@@ -29,8 +29,7 @@
                             "$lt": 22020101
                         }
                     },
-                    "type": "KYCAgeCredential",
-                    "proofType": "BJJSignature2021"
+                    "type": "KYCAgeCredential"
                 }
             }
         ]
