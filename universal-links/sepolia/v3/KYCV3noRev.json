@@ -6,6 +6,7 @@
     "from": "did:iden3:polygon:amoy:x6x5sor7zpyefHwZu9RE4xiuRWBkq9xAEHxrKbKWb",
     "body": {
         "reason": "for testing submitZKPResponseV2",
+        "skipClaimRevocationCheck": true,
         "transaction_data": {
             "contract_address": "0xfcc86A79fCb057A8e55C6B853dff9479C3cf607c",
             "method_id": "ade09fcd",
