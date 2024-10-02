@@ -14,7 +14,7 @@
         },
         "scope": [
             {
-                "id": 201,
+                "id": 202,
                 "circuitId": "credentialAtomicQueryV3OnChain-beta.1",
                 "params": {
                     "nullifierSessionId": 11837215
