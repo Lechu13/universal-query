@@ -1,0 +1,53 @@
+{
+    "id": "7f38a193-0918-4a48-9fac-36adfdb8b543",
+    "typ": "application/iden3comm-plain-json",
+    "type": "https://iden3-communication.io/proofs/1.0/contract-invoke-request",
+    "thid": "7f38a193-0918-4a48-9fac-36adfdb8b543",
+    "from": "did:iden3:linea:sepolia:28itzVLBHnMJzDWfSeHvL8brMuirUMc5u1dXehbTJT",
+    "body": {
+        "reason": "for testing submitZKPResponseV2",
+        "transaction_data": {
+            "contract_address": "0xfcc86A79fCb057A8e55C6B853dff9479C3cf607c",
+            "method_id": "ade09fcd",
+            "chain_id": 59141,
+            "network": "linea-sepolia"
+        },
+        "scope": [
+            {
+                "id": 300,
+                "circuitId": "credentialAtomicQueryV3OnChain-beta.1",
+                "params": {
+                    "nullifierSessionId": 11837215
+                },
+                "query": {
+                    "allowedIssuers": [
+                        "*"
+                    ],
+                    "context": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/kyc-v3.json-ld",
+                    "credentialSubject": {
+                        "birthday": {
+                            "$lt": 20500101
+                        }
+                    },
+                    "type": "KYCAgeCredential"
+                }
+            },
+            {
+                "id": 310,
+                "circuitId": "credentialAtomicQuerySigV2OnChain",
+                "query": {
+                    "allowedIssuers": [
+                        "*"
+                    ],
+                    "context": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/kyc-v3.json-ld",
+                    "credentialSubject": {
+                        "birthday": {
+                            "$gt": 19500101
+                        }
+                    },
+                    "type": "KYCAgeCredential"
+                }
+            }
+        ]
+    }
+}
