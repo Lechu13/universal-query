@@ -38,11 +38,11 @@
       "transaction_data": {
         "chain_id": 59141,
         "contract_address": "0xfcc86A79fCb057A8e55C6B853dff9479C3cf607c",
-        "method_id": "0xb68967e2",
+        "method_id": "ade09fcd",
         "network": "linea-sepolia"
       }
     },
-    "from": "did:iden3:linea:sepolia:28itzVLBHnMJzDWfSeHvL8brMuirUMc5u1dXehbTJT",
+    "from": "did:iden3:polygon:amoy:x6x5sor7zpyefHwZu9RE4xiuRWBkq9xAEHxrKbKWb",
     "id": "89fd9e94-10f4-46aa-a4ea-ade6fbdf671a",
     "thid": "89fd9e94-10f4-46aa-a4ea-ade6fbdf671a",
     "typ": "application/iden3comm-plain-json",
