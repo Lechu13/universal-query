@@ -1,6 +1,6 @@
 {
     "body": {
-      "reason": "for testing purposes",
+      "reason": "Participate in the human-only on-chain voting",
       "scope": [
         {
           "circuitId": "credentialAtomicQueryV3OnChain-beta.1",
