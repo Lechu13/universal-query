@@ -28,7 +28,24 @@
                     },
                     "type": "BalanceCredential"
                 }
-            }
+            },
+            {
+                "circuitId": "credentialAtomicQuerySigV2OnChain",
+                "id": 1729679888,
+                "query": {
+                  "allowedIssuers": [
+                    "*"
+                  ],
+                  "context": "https://raw.githubusercontent.com/anima-protocol/claims-polygonid/main/schemas/json-ld/pol-v1.json-ld",
+                  "credentialSubject": {
+                    "human": {
+                      "$eq": true
+                    }
+                  },
+                  "type": "AnimaProofOfLife"
+                }
+              }
+        
         ]
     }
 }
