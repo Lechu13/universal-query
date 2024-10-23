@@ -21,7 +21,7 @@
                         "*"
                     ],
                     "skipClaimRevocationCheck": true,
-                    "context": "https://ipfs.io/ipfs/QmbbTKPTJy5zpS2aWBRps1duU8V3zC84jthpWDXE9mLHBX",
+                    "context": "ipfs://QmbbTKPTJy5zpS2aWBRps1duU8V3zC84jthpWDXE9mLHBX",
                     "credentialSubject": {
                         "balance": {
                             "$gt": 0
