@@ -1,51 +1,50 @@
 {
+    "body": {
+      "reason": "for testing purposes",
+      "scope": [
+        {
+          "circuitId": "credentialAtomicQueryV3OnChain-beta.1",
+          "id": 1729685129,
+          "query": {
+            "allowedIssuers": [
+              "*"
+            ],
+            "context": "ipfs://QmbbTKPTJy5zpS2aWBRps1duU8V3zC84jthpWDXE9mLHBX",
+            "credentialSubject": {
+              "balance": {
+                "$gt": 0
+              }
+            },
+            "type": "BalanceCredential"
+          }
+        },
+        {
+            "circuitId": "credentialAtomicQueryV3OnChain-beta.1",
+            "id": 1729685781,
+            "query": {
+              "allowedIssuers": [
+                "*"
+              ],
+              "context": "https://raw.githubusercontent.com/anima-protocol/claims-polygonid/main/schemas/json-ld/pol-v1.json-ld",
+              "credentialSubject": {
+                "human": {
+                  "$eq": true
+                }
+              },
+              "type": "AnimaProofOfLife"
+            }
+          }
+      ],
+      "transaction_data": {
+        "chain_id": 59141,
+        "contract_address": "0xfcc86A79fCb057A8e55C6B853dff9479C3cf607c",
+        "method_id": "0xb68967e2",
+        "network": "linea-sepolia"
+      }
+    },
     "from": "did:iden3:linea:sepolia:28itzVLBHnMJzDWfSeHvL8brMuirUMc5u1dXehbTJT",
     "id": "89fd9e94-10f4-46aa-a4ea-ade6fbdf671a",
     "thid": "89fd9e94-10f4-46aa-a4ea-ade6fbdf671a",
     "typ": "application/iden3comm-plain-json",
-    "type": "https://iden3-communication.io/proofs/1.0/contract-invoke-request",
-    "body": {
-        "reason": "for testing submitZKPResponseV2",
-        "transaction_data": {
-            "contract_address": "0xfcc86A79fCb057A8e55C6B853dff9479C3cf607c",
-            "method_id": "ade09fcd",
-            "chain_id": 59141,
-            "network": "linea-sepolia"
-        },
-        "scope": [
-            {
-                "circuitId": "credentialAtomicQueryV3OnChain-beta.1",
-                "id": 1729685129,
-                "query": {
-                  "allowedIssuers": [
-                    "*"
-                  ],
-                  "context": "ipfs://QmbbTKPTJy5zpS2aWBRps1duU8V3zC84jthpWDXE9mLHBX",
-                  "credentialSubject": {
-                    "balance": {
-                      "$gt": 0
-                    }
-                  },
-                  "type": "BalanceCredential"
-                }
-              },
-            {
-                "circuitId": "credentialAtomicQuerySigV2OnChain",
-                "id": 1729679888,
-                "query": {
-                  "allowedIssuers": [
-                    "*"
-                  ],
-                  "context": "https://raw.githubusercontent.com/anima-protocol/claims-polygonid/main/schemas/json-ld/pol-v1.json-ld",
-                  "credentialSubject": {
-                    "human": {
-                      "$eq": true
-                    }
-                  },
-                  "type": "AnimaProofOfLife"
-                }
-              }
-        
-        ]
-    }
-}
+    "type": "https://iden3-communication.io/proofs/1.0/contract-invoke-request"
+  }
