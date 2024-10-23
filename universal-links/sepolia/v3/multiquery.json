@@ -1,35 +1,34 @@
 {
-    "id": "7f38a193-0918-4a48-9fac-36adfdb8b543",
-    "typ": "application/iden3comm-plain-json",
-    "type": "https://iden3-communication.io/proofs/1.0/contract-invoke-request",
-    "thid": "7f38a193-0918-4a48-9fac-36adfdb8b543",
-    "from": "did:iden3:polygon:amoy:x6x5sor7zpyefHwZu9RE4xiuRWBkq9xAEHxrKbKWb",
     "body": {
-        "reason": "for testing submitZKPResponseV2",
-        "transaction_data": {
-            "contract_address": "0xfcc86A79fCb057A8e55C6B853dff9479C3cf607c",
-            "method_id": "ade09fcd",
-            "chain_id": 59141,
-            "network": "linea-sepolia"
-        },
-        "scope": [
-            {
-                "id": 195,
-                "circuitId": "credentialAtomicQuerySigV2OnChain",
-                "query": {
-                    "allowedIssuers": [
-                        "*"
-                    ],
-                    "skipClaimRevocationCheck": true,
-                    "context": "ipfs://QmbbTKPTJy5zpS2aWBRps1duU8V3zC84jthpWDXE9mLHBX",
-                    "credentialSubject": {
-                        "balance": {
-                            "$gt": 0
-                        }
-                    },
-                    "type": "BalanceCredential"
-                }
-            }
-        ]
-    }
-}
+      "reason": "for testing purposes",
+      "scope": [
+        {
+          "circuitId": "credentialAtomicQuerySigV2OnChain",
+          "id": 1729671012,
+          "query": {
+            "allowedIssuers": [
+              "*"
+            ],
+            "context": "ipfs://QmbbTKPTJy5zpS2aWBRps1duU8V3zC84jthpWDXE9mLHBX",
+            "credentialSubject": {
+              "balance": {
+                "$gt": 0
+              }
+            },
+            "type": "BalanceCredential"
+          }
+        }
+      ],
+      "transaction_data": {
+        "chain_id": 59141,
+        "contract_address": "0xfcc86A79fCb057A8e55C6B853dff9479C3cf607c",
+        "method_id": "0xb68967e2",
+        "network": "linea-sepolia"
+      }
+    },
+    "from": "did:iden3:linea:sepolia:28itzVLBHnMJzDWfSeHvL8brMuirUMc5u1dXehbTJT",
+    "id": "2aeaa8b7-bd4e-4c0a-8804-71132d0f4d51",
+    "thid": "2aeaa8b7-bd4e-4c0a-8804-71132d0f4d51",
+    "typ": "application/iden3comm-plain-json",
+    "type": "https://iden3-communication.io/proofs/1.0/contract-invoke-request"
+  }
