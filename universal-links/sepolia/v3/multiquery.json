@@ -14,21 +14,21 @@
         },
         "scope": [
             {
-                "id": 195,
-                "circuitId": "credentialAtomicQuerySigV2OnChain",
+                "circuitId": "credentialAtomicQueryV3OnChain-beta.1",
+                "id": 1729685129,
                 "query": {
-                    "allowedIssuers": [
-                        "*"
-                    ],
-                    "context": "ipfs://QmbbTKPTJy5zpS2aWBRps1duU8V3zC84jthpWDXE9mLHBX",
-                    "credentialSubject": {
-                        "balance": {
-                            "$gt": 0
-                        }
-                    },
-                    "type": "BalanceCredential"
+                  "allowedIssuers": [
+                    "*"
+                  ],
+                  "context": "ipfs://QmbbTKPTJy5zpS2aWBRps1duU8V3zC84jthpWDXE9mLHBX",
+                  "credentialSubject": {
+                    "balance": {
+                      "$gt": 0
+                    }
+                  },
+                  "type": "BalanceCredential"
                 }
-            },
+              },
             {
                 "circuitId": "credentialAtomicQuerySigV2OnChain",
                 "id": 1729679888,
