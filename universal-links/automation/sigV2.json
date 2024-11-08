@@ -1,0 +1,22 @@
+{
+    "chainID": "80002",
+    "scope": [
+      {
+        "circuitID": "credentialAtomicQuerySigV2",
+        "id": 1707141133,
+        "query": {
+          "allowedIssuers": [
+            "*"
+          ],
+          "context": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/kyc-v4.jsonld",
+          "credentialSubject": {
+            "birthday": {
+              "$eq": 19960424
+            }
+          },
+          "type": "KYCAgeCredential"
+        }
+      }
+    ],
+    "skipClaimRevocationCheck": false
+  }
