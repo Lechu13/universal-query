@@ -4,7 +4,7 @@
         "reason": "for testing purposes",
         "scope": [
             {
-                "circuitID": "credentialAtomicQuerySigV2",
+                "circuitId": "credentialAtomicQuerySigV2",
                 "id": 1707141133,
                 "query": {
                     "allowedIssuers": [
