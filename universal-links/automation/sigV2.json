@@ -1,13 +1,7 @@
 {
-    "id": "7f38a193-0918-4a48-9fac-36adfdb8b543",
-    "typ": "application/iden3comm-plain-json",
-    "type": "https://iden3-communication.io/authorization/1.0/request",
-    "thid": "7f38a193-0918-4a48-9fac-36adfdb8b543",
-    "from": "did:iden3:polygon:amoy:x6x5sor7zpy7c5EhTTzRMqafyumoWMjA4LncgARhZ",
     "body": {
-        "message": "Hey, i want to check your age",
-        "callbackUrl": "https://verifier.polygonid.me/api/callback?sessionId=897494",
-        "reason": "Testing reason",
+        "callbackUrl": "https://verifier-backend.privado.id/callback?sessionID=4070d42b-ab59-402b-8f25-3489946a8664",
+        "reason": "for testing purposes",
         "scope": [
             {
                 "circuitID": "credentialAtomicQuerySigV2",
@@ -26,5 +20,10 @@
                 }
             }
         ]
-    }
+    },
+    "from": "did:iden3:polygon:amoy:xCkXubP2T1zsUQpFLwczwfbWpdBYBxmJDtUTWAUCE",
+    "id": "e2b58bee-09a1-43b3-83d9-4061d10828b1",
+    "thid": "e2b58bee-09a1-43b3-83d9-4061d10828b1",
+    "typ": "application/iden3comm-plain-json",
+    "type": "https://iden3-communication.io/authorization/1.0/request"
 }
