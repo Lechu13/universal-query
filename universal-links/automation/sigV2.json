@@ -1,22 +1,30 @@
 {
-    "chainID": "80002",
-    "scope": [
-      {
-        "circuitID": "credentialAtomicQuerySigV2",
-        "id": 1707141133,
-        "query": {
-          "allowedIssuers": [
-            "*"
-          ],
-          "context": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/kyc-v4.jsonld",
-          "credentialSubject": {
-            "birthday": {
-              "$eq": 19960424
+    "id": "7f38a193-0918-4a48-9fac-36adfdb8b543",
+    "typ": "application/iden3comm-plain-json",
+    "type": "https://iden3-communication.io/authorization/1.0/request",
+    "thid": "7f38a193-0918-4a48-9fac-36adfdb8b543",
+    "from": "did:iden3:polygon:amoy:x6x5sor7zpy7c5EhTTzRMqafyumoWMjA4LncgARhZ",
+    "body": {
+        "message": "Hey, i want to check your age",
+        "callbackUrl": "https://verifier.polygonid.me/api/callback?sessionId=897494",
+        "reason": "Testing reason",
+        "scope": [
+            {
+                "circuitID": "credentialAtomicQuerySigV2",
+                "id": 1707141133,
+                "query": {
+                    "allowedIssuers": [
+                        "*"
+                    ],
+                    "context": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/kyc-v4.jsonld",
+                    "credentialSubject": {
+                        "birthday": {
+                            "$eq": 19960424
+                        }
+                    },
+                    "type": "KYCAgeCredential"
+                }
             }
-          },
-          "type": "KYCAgeCredential"
-        }
-      }
-    ],
-    "skipClaimRevocationCheck": false
-  }
+        ]
+    }
+}
